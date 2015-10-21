@@ -1,0 +1,32 @@
+<script id="place-template" type="text/html">
+    <div class="col-md-4 movie">
+        <div class="thumbnail">
+            <div class="caption">
+                <h4><%= categories.join(', ') %></h4>
+                <div class="outline">
+                    <%= description %>
+                    </div>
+                    <div class="detail">
+                        <dl>
+                        <dt>Categories</dt>
+                        <dd><%= categories.join(', ') %></dd>
+                        <% if(phone){ %>
+                            <dt>Phone</dt>
+                            <dd><%= phone %></dd>
+                            <% } %>
+                                <dt>Address</dt>
+                                <dd><%= address %></dd>
+                                </dl>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </script>
+                                <script id="category-template" type="text/html">
+                                    <div class="checkbox">
+                                        <label>
+                                        <input type="checkbox" value="<%= value %>">
+                                            <span><%= name %></span>
+                                            </label>
+                                            </div>
+                                            </script>

@@ -1,0 +1,31 @@
+{
+  "name": "Frameye",
+  "version": "0.0.0",
+  "description": "Projeto TCC da Anhembi Morumbi",
+  "main": "library/",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "keywords": [
+    "frameye"
+  ],
+  "authors": [
+    "Leonardo Araujo",
+    "Aleff Santos"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}
