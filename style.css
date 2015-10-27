@@ -5082,3 +5082,36 @@ a img.aligncenter {
 
 .sticky {
   display: block; }
+
+/* = VIDEO BG
+-------------------------------------------------------------- */
+
+
+#bg-video {
+    background: url('http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/10/landscape-hd-wallpaper-free-26.jpg') no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+/*--- --*/
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}

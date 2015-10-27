@@ -22,6 +22,11 @@ if ( 2 > $paged ) {
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
+				<!--HERO-SLIDER CODE TEST -->
+				
+                    
+				
+                    <!--HERO-SLIDER CODE TEST -->
 					<?php
 					if ( is_active_sidebar( 'jumbo-headline' ) ) {
 						dynamic_sidebar( 'jumbo-headline' );
@@ -62,9 +67,9 @@ if ( 'page' == get_option('show_on_front') ) {
 		<div class="row">
 			<div id="primary" class="col-xs-12">
                 <div class="tag-panel">
-                    <p><span class="badge-tag">#</span>
-                    <span class="tag-name">Felicidade</span></p>
+                    <p class="tag-name" style="background-color: #B8292F"># Felicidade</p>
                 </div>
+                   
                 <!-- Place somewhere in the <body> of your page -->
                 <div class="flexslider">
                     <ul class="slides">
@@ -109,9 +114,9 @@ if ( 'page' == get_option('show_on_front') ) {
                 </div>
                 
                 <div class="tag-panel">
-                    <p><span class="badge-tag" style="color:#69ABB0;">#</span>
-                        <span class="tag-name" style="background-color: #69ABB0;">Liberdade</span></p>
+                    <p class="tag-name" style="background-color: #69ABB0;"># Liberdade</p>
                 </div>
+                   
                 <!-- SECOND SLIDER -->
                 
                 <div class="flexslider">
@@ -150,8 +155,7 @@ if ( 'page' == get_option('show_on_front') ) {
             </div>
                
                 <div class="tag-panel">
-                    <p><span class="badge-tag" style="color:#85A640;">#</span>
-                        <span class="tag-name" style="background-color: #85A640;">Humanidade</span></p>
+                    <p class="tag-name" style="background-color: #85A640;"># Humanidade</p>
                 </div>
                <!-- THIRD SLIDER -->
                

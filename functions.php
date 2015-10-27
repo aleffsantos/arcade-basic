@@ -201,6 +201,11 @@ function bavotasan_add_js() {
     wp_enqueue_script( 'filter_map_js', BAVOTASAN_THEME_URL .'/library/js/vendor/filterjs/map.js', array( 'jquery' ), true );
     wp_enqueue_script( 'main_js', BAVOTASAN_THEME_URL .'/library/js/main.js', array( 'flexslider_js' ), '', true );
     
+    //SCRIPT HERO SLIDER//
+    
+    //SCRIPT HERO SLIDER//
+    
+    
     //SCRIPT MAP FILTER//
     
     //SCRIPT MAP FILTER//
@@ -618,8 +623,22 @@ function bavotasan_header_images() {
 			?>
             
             <!-- TRYING IFRAME <iframe class="header-image" width="100%" height="608" src="https://www.youtube.com/embed/EgU-RWQ4J7o?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" start="4" end="14" rel="0" modestbranding="1" fs="1" autoplay="1" loop="1" controls="0" allowfullscreen></iframe> -->
+               
+            <div class="fullscreen-bg">
+                <video loop muted autoplay poster="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/10/landscape-hd-wallpaper-free-26.jpg" class="fullscreen-bg__video">
+                    <source src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/10/arthurfelicidade-stabarbaraEUA.mp4" type="video/mp4">
+                    <source src="https://our-website/wp-content/uploads/2015/01/cookies.mp4" type="video/mp4">
+                </video>
+            </div>
+               
+                     
+               
+            <!-- <video autoplay loop poster="" id="bg-video">
+                <source src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/10/arthurfelicidade-stabarbaraEUA.mp4">
+                <source src="https://our-website/wp-content/uploads/2015/01/cookies.mp4" type="video/mp4">
+            </video> -->
             
-            <img class="header-img" src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/10/landscape-hd-wallpaper-free-26.jpg" alt="" />
+            <!-- <img class="header-img" src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/10/landscape-hd-wallpaper-free-26.jpg" alt="" /> -->
 			<?php
 		endif;
 	}
