@@ -81,7 +81,11 @@ $space_class = '';
 						if ( ! defined( 'BAVOTASAN_SEE_MORE' ) )
 							define( 'BAVOTASAN_SEE_MORE', __( 'See More', 'arcade' ) );
 						?>
-    					<a href="#" id="more-site" class="btn btn-default btn-lg"><?php echo BAVOTASAN_SEE_MORE; ?></a>
+    					<a href="#" id="more-site" class="btn btn-default btn-lg"> Login</a>
+    					
+                        <a href="#" id="more-site" class="btn btn-default btn-lg"> Mapa</a>
+                        <a href="#" id="more-site" class="btn btn-default btn-lg"> Sobre</a>
+    					
     				</div>
 
     				<?php

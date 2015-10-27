@@ -61,7 +61,10 @@ if ( 'page' == get_option('show_on_front') ) {
 	<div class="container">
 		<div class="row">
 			<div id="primary" class="col-xs-12">
-               
+                <div class="tag-panel">
+                    <p><span class="badge-tag">#</span>
+                    <span class="tag-name">Felicidade</span></p>
+                </div>
                 <!-- Place somewhere in the <body> of your page -->
                 <div class="flexslider">
                     <ul class="slides">
@@ -105,6 +108,10 @@ if ( 'page' == get_option('show_on_front') ) {
                     </ul>
                 </div>
                 
+                <div class="tag-panel">
+                    <p><span class="badge-tag" style="color:#69ABB0;">#</span>
+                        <span class="tag-name" style="background-color: #69ABB0;">Liberdade</span></p>
+                </div>
                 <!-- SECOND SLIDER -->
                 
                 <div class="flexslider">
@@ -121,7 +128,6 @@ if ( 'page' == get_option('show_on_front') ) {
                     <li>
                         <iframe id="player_1" src="https://player.vimeo.com/video/137158633?color=ffffff&title=0&byline=0&portrait=0&badge=0" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     </li>
-                    <iframe id="player_1" src="https://player.vimeo.com/video/142364749?color=ff0179&title=0&byline=0&portrait=0" width="224" height="224" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     <li>
                         <iframe id="player_1" src="https://player.vimeo.com/video/141843181?color=5ea9b1&title=0&byline=0&portrait=0" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     </li>
@@ -143,6 +149,10 @@ if ( 'page' == get_option('show_on_front') ) {
                 </ul>
             </div>
                
+                <div class="tag-panel">
+                    <p><span class="badge-tag" style="color:#85A640;">#</span>
+                        <span class="tag-name" style="background-color: #85A640;">Humanidade</span></p>
+                </div>
                <!-- THIRD SLIDER -->
                
             <div class="flexslider">
@@ -166,9 +176,6 @@ if ( 'page' == get_option('show_on_front') ) {
                     <iframe id="player_1" src="https://player.vimeo.com/video/108679294?color=7f983b&title=0&byline=0&portrait=0&badge=0" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </li>
                 <li>
-                    <iframe id="player_1" src="https://player.vimeo.com/video/91085172?color=7f983b&title=0&byline=0&portrait=0" width="224" height="74" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                </li>
-                <li>
                     <iframe id="player_1" src="https://player.vimeo.com/video/96992249?color=ffffff" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </li>
                 <li>
@@ -180,40 +187,9 @@ if ( 'page' == get_option('show_on_front') ) {
                 <li>
                     <iframe id="player_1" src="https://player.vimeo.com/video/108679294?color=7f983b&title=0&byline=0&portrait=0&badge=0" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </li>
-                <li>
-                    <iframe id="player_1" src="https://player.vimeo.com/video/91085172?color=7f983b&title=0&byline=0&portrait=0" width="224" height="74" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                </li>
             </ul>
         </div>
-                <?php
-				if ( have_posts() ) {
-					while ( have_posts() ) : the_post();
-						get_template_part( 'content', get_post_format() );
-					endwhile;
-
-					bavotasan_pagination();
-				} else {
-					if ( current_user_can( 'edit_posts' ) ) {
-						// Show a different message to a logged-in user who can add posts.
-						?>
-						<article id="post-0" class="post no-results not-found">
-							<h1 class="entry-title"><?php _e( 'Nothing Found', 'arcade' ); ?></h1>
-
-							<div class="entry-content description clearfix">
-								<p><?php printf( __( 'Ready to publish your first post? <a href="%s">Get started here</a>.', 'arcade' ), admin_url( 'post-new.php' ) ); ?></p>
-							</div><!-- .entry-content -->
-						</article>
-						<?php
-					} else {
-						get_template_part( 'content', 'none' );
-					} // end current_user_can() check
-				}
-				?>
-			</div><!-- #primary.c8 -->
-			
-			<?php 
-//        get_sidebar();
-            ?>
+                
 		</div>
 	</div>
 
