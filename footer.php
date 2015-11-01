@@ -28,10 +28,9 @@ $bavotasan_theme_options = bavotasan_theme_options();
 	</footer><!-- #footer -->
 </div><!-- #page -->
 
-<!--<script type="text/javascript" src="library/vendor/flexslider/jquery.flexslider-min.js" />-->
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.16&key=AIzaSyBWcRdeBybFQUpx5tyfIw1QbwskiRuFsdc" />
 <script src="library/vendor/hero-slider/js/jquery-2.1.1.js"></script>
-<script src="wp-content/themes/arcade-basic/library/vendor/hero-slider/js/main.js"></script> <!-- Resource jQuery -->
+<!-- Resource jQuery -->
 <?php wp_footer(); ?>
 
 </body>

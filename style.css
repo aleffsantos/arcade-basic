@@ -5092,20 +5092,20 @@ a img.aligncenter {
     background-size: cover;
     position: absolute;
     width: 100%;
-    height: auto;
-    z-index: -1;
+    height: 100px;
 }
 
 /*--- --*/
 
 .fullscreen-bg {
-    position: fixed;
+    /*position: fixed;*/
+    position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     overflow: hidden;
-    z-index: -100;
+    z-index: -999999999999999; --*/
 }
 
 .fullscreen-bg__video {
@@ -5114,4 +5114,5 @@ a img.aligncenter {
     left: 0;
     width: 100%;
     height: auto;
+    z-index: -999999999999999;
 }

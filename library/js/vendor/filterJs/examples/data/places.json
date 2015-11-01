@@ -1,0 +1,180 @@
+var places = [
+  {
+    "id": 1,
+    "name": "The Flying Falafel",
+    "categories": [
+      "Falafel",
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "address": "1051 Market St, SoMa, San Francisco, CA 94103",
+    "coordinate": {
+      "latitude": 37.78125,
+      "longitude": -122.4113007
+    },
+    "description": "Yep, this place is a winner! \n\nFalafel pocket sandwich overflowing with goodness- falafel balls (sesame or spicy), veggies (~6 options), and sauces (~4...",
+    "phone": "+1-415-964-1003"
+  },
+  {
+    "id": 2,
+    "name": "Philz Coffee",
+      "url": "https://www.youtube.com/watch?v=aTcJWhmdzpg&list=PLPy9EgpSI-40ZHrcc3cUs8J_CAtJEHpXI",
+    "categories": [
+      "Coffee & Tea"
+    ],
+    "address": "748 Van Ness Ave, San Francisco, CA 94102",
+    "coordinate": {
+      "latitude": 37.782383,
+      "longitude": -122.420526
+    },
+    "description": "I think the idea of ordering with your barista is pretty cool. You line up until a barista calls \"next\". Order. and pay at the counter behind you. \n\nI had...",
+    "phone": "+1-415-292-7660"
+  },
+  {
+    "id": 3,
+    "name": "City Hall",
+    "rating": 4.0,
+    "review_count": 290,
+    "url": "http://www.yelp.com/biz/city-hall-san-francisco",
+    "categories": [
+      "Landmarks & Historical Buildings",
+      "Venues & Event Spaces"
+    ],
+    "address": "1 Dr Carlton B Goodlett Pl, Civic Center, San Francisco, CA 94102",
+    "coordinate": {
+      "latitude": 37.7793900915108,
+      "longitude": -122.41861581802401
+    },
+    "description": "Gorgeous place! We had such an amazing wedding here. We had the whole 9-yards.... the prettiest venue, a private wedding, strings players, etc... I would...",
+    "phone": "+1-415-701-2311"
+  },
+  {
+    "id": 4,
+    "name": "Papa November",
+    "rating": 4.6,
+    "review_count": 68,
+    "url": "http://www.yelp.com/biz/papa-november-san-francisco",
+    "categories": [
+      "Coffee & Tea"
+    ],
+    "address": "15th & Kansas SE Corner, SoMa, San Francisco, CA 94103",
+    "coordinate": {
+      "latitude": 37.7672036024795,
+      "longitude": -122.403616905212
+    },
+    "description": "It truly is all that they say it is and more. \n\nDelicious, quality stuff, it's really all we ask for. Thank you to the people who work there as well. Staff...",
+    "phone": null
+  },
+  {
+    "id": 5,
+    "name": "Hooker's Sweet Treats",
+    "rating": 4.8,
+    "review_count": 232,
+    "url": "http://www.yelp.com/biz/hookers-sweet-treats-san-francisco",
+    "categories": [
+      "Desserts",
+      "Chocolatiers & Shops",
+      "Coffee & Tea"
+    ],
+    "address": "442 Hyde St, Tenderloin, San Francisco, CA 94109",
+    "coordinate": {
+      "latitude": 37.7852287,
+      "longitude": -122.4160538
+    },
+    "description": "I noticed all the amazing reviews for this place on yelp and decided to stop by after a late lunch at nearby Lahore Karahi. Unfortunately, they were already...",
+    "phone": "+1-415-441-4628"
+  },
+  {
+    "id": 6,
+    "name": "Tadu Ethiopian Kitchen",
+    "rating": 4.2,
+    "review_count": 183,
+    "url": "http://www.yelp.com/biz/tadu-ethiopian-kitchen-san-francisco-3",
+    "categories": [
+      "Ethiopian"
+    ],
+    "address": "484 Ellis St, Tenderloin, San Francisco, CA 94102",
+    "coordinate": {
+      "latitude": 37.7847191,
+      "longitude": -122.414172
+    },
+    "description": "Wow this food is good!\n\nMy partner and I went there for a Sunday lunch. The restaurant wasn't busy at all, which was probably for the best since they only...",
+    "phone": "+1-415-409-6649"
+  },
+  {
+    "id": 7,
+    "name": "b. Patisserie",
+    "rating": 4.8,
+    "review_count": 926,
+    "url": "http://www.yelp.com/biz/b-patisserie-san-francisco-2",
+    "categories": [
+      "Bakeries",
+      "Coffee & Tea"
+    ],
+    "address": "2821 California St, Pacific Heights, San Francisco, CA 94115",
+    "coordinate": {
+      "latitude": 37.7879217,
+      "longitude": -122.4409499
+    },
+    "description": "I made a point of walking to this place from Union Square as I knew I would be indulging in some delicious pastries. \n\nBased on my first experience, b....",
+    "phone": "+1-415-440-1700"
+  },
+  {
+    "id": 8,
+    "name": "Little Heaven Deli",
+    "rating": 5.0,
+    "review_count": 92,
+    "url": "http://www.yelp.com/biz/little-heaven-deli-san-francisco",
+    "categories": [
+      "Creperies",
+      "American (New)",
+      "Delis"
+    ],
+    "address": "2348 Mission St, Mission, San Francisco, CA 94110",
+    "coordinate": {
+      "latitude": 37.7594795,
+      "longitude": -122.4194336
+    },
+    "description": "Great little spot for crepes and sandwiches. Now, they have bubble tea, too, and it's quite tasty.\n\nThe owners of this place clearly care about their...",
+    "phone": "+1-415-824-1293"
+  },
+    {
+        "id": 9,
+        "name": "Av. Roque Petroni Junior",
+        "rating": 5.0,
+        "review_count": 92,
+        "url": "http://www.yelp.com/biz/little-heaven-deli-san-francisco",
+        "categories": [
+            "Creperies",
+            "American (New)",
+            "Delis"
+        ],
+        "address": "Av. Roque Petroni Junior",
+        "coordinate": {
+            "latitude": -23.624250,
+            "longitude": -46.694810
+        },
+        "description": "Great little spot for crepes and sandwiches. Now, they have bubble tea, too, and it's quite tasty.\n\nThe owners of this place clearly care about their...",
+        "phone": "+1-415-824-1293"
+    },
+    {
+        "id": 10,
+        "name": "Av. Brigadeiro Faria Lima",
+        "video": "https://www.youtube.com/watch?v=aTcJWhmdzpg&list=PLPy9EgpSI-40ZHrcc3cUs8J_CAtJEHpXI",
+        "rating": 5.0,
+        "review_count": 92,
+        "url": "http://www.yelp.com/biz/little-heaven-deli-san-francisco",
+        "categories": [
+            "Creperies",
+            "American (New)",
+            "Delis"
+        ],
+        "address": "Av. Brigadeiro Faria Lima",
+        "coordinate": {
+            "latitude": -23.577389,
+            "longitude": -46.686915
+        },
+        "description": "Great little spot for crepes and sandwiches. Now, they have bubble tea, too, and it's quite tasty.\n\nThe owners of this place clearly care about their...",
+        "phone": "+1-415-824-1293"
+    },
+]

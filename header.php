@@ -20,11 +20,7 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<!--[if IE]><script src="<?php echo BAVOTASAN_THEME_URL; ?>/library/js/html5.js"></script><![endif]-->
 	<?php wp_head(); ?>
-    <!-- HERO-SLIDER LINKS -->
-    <link rel="stylesheet" href="wp-content/themes/arcade-basic/library/vendor/hero-slider/css/reset.css"> <!-- CSS reset -->
-    <link rel="stylesheet" href="wp-content/themes/arcade-basic/library/vendor/hero-slider/css/style.css"> <!-- Resource style -->
-    <script src="wp-content/themes/arcade-basic/library/vendor/hero-slider/js/modernizr.js"></script>
-    <!-- HERO-SLIDER LINKS -->
+    
 </head>
 <?php
 $bavotasan_theme_options = bavotasan_theme_options();
@@ -87,7 +83,7 @@ $space_class = '';
 						?>
     					<a href="#" id="more-site" class="btn btn-default btn-lg"> Login</a>
     					
-                        <a href="file:///C:/wamp/www/z-Frameye/estudos/FilterJs/examples/map.html" id="more-site" class="btn btn-default btn-lg"> Mapa</a>
+                        <a href="http://localhost/z-Frameye/wordpress/teste-map/" id="more-site" class="btn btn-default btn-lg"> Mapa</a>
                         <a href="http://localhost/z-Frameye/wordpress/sobre/" id="more-site" class="btn btn-default btn-lg"> Sobre</a>
     					
     				</div>

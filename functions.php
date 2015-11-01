@@ -194,12 +194,13 @@ function bavotasan_add_js() {
 	wp_enqueue_script( 'fillsize', BAVOTASAN_THEME_URL .'/library/js/fillsize.js', array( 'jquery' ), '', true );
 	wp_enqueue_script( 'arctext', BAVOTASAN_THEME_URL .'/library/js/jquery.arctext.js', array( 'jquery' ), '', true );
 	wp_enqueue_script( 'theme_js', BAVOTASAN_THEME_URL .'/library/js/theme.js', array( 'bootstrap' ), '', true );  
-    wp_enqueue_script( 'maps_js', BAVOTASAN_THEME_URL .'https://maps.googleapis.com/maps/api/js?v=3.16&key=AIzaSyBWcRdeBybFQUpx5tyfIw1QbwskiRuFsdc', array( '' ), true );
     wp_enqueue_script( 'flexslider_js', BAVOTASAN_THEME_URL .'/library/js/vendor/flexslider/jquery.flexslider.js', array( 'jquery' ), true );
-    wp_enqueue_script( 'filter_js', BAVOTASAN_THEME_URL .'/library/js/vendor/filterjs/filter.js', array( 'jquery' ), true );
-    wp_enqueue_script( 'filter_places_js', BAVOTASAN_THEME_URL .'/library/js/vendor/filterjs/data/places.js', array( 'jquery' ), true );
-    wp_enqueue_script( 'filter_map_js', BAVOTASAN_THEME_URL .'/library/js/vendor/filterjs/map.js', array( 'jquery' ), true );
+    wp_enqueue_script( 'filter_js', BAVOTASAN_THEME_URL .'/library/js/vendor/filterJs/dist/filter.js', array( 'jquery' ), true );
+    wp_enqueue_script( 'filter_places_js', BAVOTASAN_THEME_URL .'/library/js/vendor/filterJs/examples/data/places.json', array( 'jquery' ), true );
+    wp_enqueue_script( 'filter_map_js', BAVOTASAN_THEME_URL .'/library/js/vendor/filterJs/examples/map.js', array( 'jquery' ), true );
     wp_enqueue_script( 'main_js', BAVOTASAN_THEME_URL .'/library/js/main.js', array( 'flexslider_js' ), '', true );
+
+    
     
     //SCRIPT HERO SLIDER//
     
@@ -221,6 +222,7 @@ function bavotasan_add_js() {
 	wp_enqueue_style( 'theme_stylesheet', get_stylesheet_uri() );
 	wp_enqueue_style( 'google_fonts', '//fonts.googleapis.com/css?family=Megrim|Raleway|Open+Sans:400,400italic,700,700italic', false, null, 'all' );
 	wp_enqueue_style( 'font_awesome', BAVOTASAN_THEME_URL .'/library/css/font-awesome.css', false, '4.3.0', 'all' );
+    wp_enqueue_style( '', BAVOTASAN_THEME_URL .'/library/js/vendor/filterJs/examples/assets/css/stream.css', false, 'all' );
 }
 endif; // bavotasan_add_js
 
@@ -627,7 +629,6 @@ function bavotasan_header_images() {
             <div class="fullscreen-bg">
                 <video loop muted autoplay poster="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/10/landscape-hd-wallpaper-free-26.jpg" class="fullscreen-bg__video">
                     <source src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/10/arthurfelicidade-stabarbaraEUA.mp4" type="video/mp4">
-                    <source src="https://our-website/wp-content/uploads/2015/01/cookies.mp4" type="video/mp4">
                 </video>
             </div>
                
