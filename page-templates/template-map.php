@@ -40,12 +40,15 @@ if ( ! is_front_page() )
         <div class="thumbnail">
           <div class="caption">
             <h4><%= name %></h4>
+            <video width="100%" height="240" controls style="background: #000;">
+                <source src="<%= videoUrl %>">        
+            </video>
             <div class="detail">
               <dl>
                 <dt>Categories</dt>
                 <dd><%= categories.join(', ') %></dd>
                 <dt>Address</dt>
-                <dd><%= address %></dd>
+                <video><%= address %></video>
                     </dl>
                     </div>
                     </div>

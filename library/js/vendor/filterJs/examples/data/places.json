@@ -7,18 +7,23 @@ var places = [
       "Vegan",
       "Gluten-Free"
     ],
-    "address": "1051 Market St, SoMa, San Francisco, CA 94103",
+      "videoUrl": "http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/video-1446408223.mp4.mp4",
+      "address": "localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/video-1446408223.mp4.mp4",
     "coordinate": {
       "latitude": 37.78125,
       "longitude": -122.4113007
     },
     "description": "Yep, this place is a winner! \n\nFalafel pocket sandwich overflowing with goodness- falafel balls (sesame or spicy), veggies (~6 options), and sauces (~4...",
-    "phone": "+1-415-964-1003"
+    "phone": "+1-415-964-1003",
   },
+    
+    
+    
+    
   {
     "id": 2,
     "name": "Philz Coffee",
-      "url": "https://www.youtube.com/watch?v=aTcJWhmdzpg&list=PLPy9EgpSI-40ZHrcc3cUs8J_CAtJEHpXI",
+      "videoUrl": "http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/video-1446408223.mp4-1.mp4",
     "categories": [
       "Coffee & Tea"
     ],
@@ -33,9 +38,7 @@ var places = [
   {
     "id": 3,
     "name": "City Hall",
-    "rating": 4.0,
-    "review_count": 290,
-    "url": "http://www.yelp.com/biz/city-hall-san-francisco",
+      "videoUrl": "http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/video-1446408222.mp4.mp4",
     "categories": [
       "Landmarks & Historical Buildings",
       "Venues & Event Spaces"
@@ -51,6 +54,7 @@ var places = [
   {
     "id": 4,
     "name": "Papa November",
+      "videoUrl": "http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/Rodrigo-Poncinelli_Liberdade-Juiz-de-Fora-MG.mov",
     "rating": 4.6,
     "review_count": 68,
     "url": "http://www.yelp.com/biz/papa-november-san-francisco",
@@ -68,6 +72,7 @@ var places = [
   {
     "id": 5,
     "name": "Hooker's Sweet Treats",
+      "videoUrl": "http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/10/arthurfelicidade-stabarbaraEUA.mp4",
     "rating": 4.8,
     "review_count": 232,
     "url": "http://www.yelp.com/biz/hookers-sweet-treats-san-francisco",

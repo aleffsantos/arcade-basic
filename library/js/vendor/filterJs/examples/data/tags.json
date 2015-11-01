@@ -1,0 +1,170 @@
+var tags = [
+    
+        {
+            "id": 1,
+            "tagName": "Descoberta",
+            "videos": [
+                {
+                    "id": 1,
+                    "videoAuthor": "Lorem",
+                    "videoLocation": "Brasil, São paulo",
+                    "coordinate": {
+                        "latitude": 37.78125,
+                        "longitude": -122.4113007
+                    },
+                    "videoTag": "Alegria",
+                    "videoUrl": "data/1-descoberta.mp4"
+                },
+                
+                {
+                    "id": 2,
+                    "videoAuthor": "Ipsum",
+                    "videoLocation": "Brasil, São paulo",
+                    "coordinate": {
+                        "latitude": 37.78125,
+                        "longitude": -122.4113007
+                    },
+                    "videoTag": "Alegria",
+                    "videoUrl": "data/1-descoberta.mp4"
+                },
+                {
+                    "id": 3,
+                    "videoAuthor": "Ipsum",
+                    "videoLocation": "Brasil, São paulo",
+                    "coordinate": {
+                        "latitude": 37.78125,
+                        "longitude": -122.4113007
+                    },
+                    "videoTag": "Alegria",
+                    "videoUrl": "data/1-descoberta.mp4"
+                },
+                {
+                    "id": 4,
+                    "videoAuthor": "Ipsum",
+                    "videoLocation": "Brasil, São paulo",
+                    "coordinate": {
+                        "latitude": 37.78125,
+                        "longitude": -122.4113007
+                    },
+                    "videoTag": "Alegria",
+                    "videoUrl": "data/1-descoberta.mp4"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "tagName": "Felicidade",
+            "videos": [
+                {
+                    "id": 1,
+                    "videoAuthor": "Lorem",
+                    "videoLocation": "Brasil, São paulo",
+                    "videoLatLong": "-23.517711, -46.476280",
+                    "videoTag": "Felicidade",
+                    "videoUrl": "data/3-felicidade.mp4"
+                },
+                {
+                    "id": 2,
+                    "videoAuthor": "Ipsum",
+                    "videoLocation": "Brasil, São paulo",
+                    "videoLatLong": "-23.517711, -46.476280",
+                    "videoTag": "Felicidade",
+                    "videoUrl": "data/3-felicidade.mp4"
+                }
+                ,
+                {
+                    "id": 3,
+                    "videoAuthor": "Ipsum",
+                    "videoLocation": "Brasil, São paulo",
+                    "videoLatLong": "-23.517711, -46.476280",
+                    "videoTag": "Felicidade",
+                    "videoUrl": "data/3-felicidade.mp4"
+                }
+                ,
+                {
+                    "id": 4,
+                    "videoAuthor": "Ipsum",
+                    "videoLocation": "Brasil, São paulo",
+                    "videoLatLong": "-23.517711, -46.476280",
+                    "videoTag": "Felicidade",
+                    "videoUrl": "data/3-felicidade.mp4"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "tagName": "Liberdade",
+            "videos": [
+                {
+                    "id": 1,
+                    "videoAuthor": "Lorem",
+                    "videoLocation": "Brasil, São paulo",
+                    "videoLatLong": "-23.517711, -46.476280",
+                    "videoTag": "Injustiça",
+                    "videoUrl": "data/2-liberdade.mp4"
+                },
+                {
+                    "id": 2,
+                    "videoAuthor": "Ipsum",
+                    "videoLocation": "Brasil, São paulo",
+                    "videoLatLong": "-23.517711, -46.476280",
+                    "videoTag": "Injustiça",
+                    "videoUrl": "data/2-liberdade.mp4"
+                },
+                {
+                    "id": 3,
+                    "videoAuthor": "Ipsum",
+                    "videoLocation": "Brasil, São paulo",
+                    "videoLatLong": "-23.517711, -46.476280",
+                    "videoTag": "Injustiça",
+                    "videoUrl": "data/2-liberdade.mp4"
+                },
+                {
+                    "id": 4,
+                    "videoAuthor": "Ipsum",
+                    "videoLocation": "Brasil, São paulo",
+                    "videoLatLong": "-23.517711, -46.476280",
+                    "videoTag": "Injustiça",
+                    "videoUrl": "data/2-liberdade.mp4"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "tagName": "Paz",
+            "videos": [
+                {
+                    "id": 1,
+                    "videoAuthor": "Lorem",
+                    "videoLocation": "Brasil, São paulo",
+                    "videoLatLong": "-23.517711, -46.476280",
+                    "videoTag": "Paz",
+                    "videoUrl": "data/2-liberdade.mp4"
+                },
+                {
+                    "id": 2,
+                    "videoAuthor": "Ipsum",
+                    "videoLocation": "Brasil, São paulo",
+                    "videoLatLong": "-23.517711, -46.476280",
+                    "videoTag": "Paz",
+                    "videoUrl": "data/2-liberdade.mp4"
+                },
+                {
+                    "id": 3,
+                    "videoAuthor": "Ipsum",
+                    "videoLocation": "Brasil, São paulo",
+                    "videoLatLong": "-23.517711, -46.476280",
+                    "videoTag": "Paz",
+                    "videoUrl": "data/2-liberdade.mp4"
+                },
+                {
+                    "id": 4,
+                    "videoAuthor": "Ipsum",
+                    "videoLocation": "Brasil, São paulo",
+                    "videoLatLong": "-23.517711, -46.476280",
+                    "videoTag": "Paz",
+                    "videoUrl": "data/2-liberdade.mp4"
+                }
+            ]
+        }
+]
