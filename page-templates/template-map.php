@@ -18,9 +18,9 @@ if ( ! is_front_page() )
 
     
 
-	<div class="container">
-                        <div class="col-md-12">
-                            <div>
+<div class="container-fluid" style="padding: 0px;margin-top: -37px;">
+                        <!--<div class="col-md-12">-->
+                            <div style="position: absolute;z-index: 10;width: 50%;border-radius: 7px!important;margin: 40px;">
                                 <h4 class='col-md-12'>Places (<span id="total_places">0</span>)</h4>
 
                                 <label class="sr-only" for="searchbox">Search</label>
@@ -29,10 +29,10 @@ if ( ! is_front_page() )
                             </div>
                         </br>
                     
-                        <div id="map" class="map"></div>
-                        <div class="places content row" id="places"> </div>
+                        <div id="map" class="map"></div><br>
+                        <div class="places content row col-md-12" id="places"> </div>
                    
-                </div>
+                <!--</div>-->
                 </div>
 
                 <script id="place-template" type="text/html">

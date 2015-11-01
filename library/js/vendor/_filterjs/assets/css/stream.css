@@ -254,10 +254,7 @@ select:focus, textarea:focus, input:focus{
 
 .map{
   margin-top: 15px;
-  height: 300px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 1), 0 0 40px rgba(0, 0, 0, 0.06) inset;
-  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 1), 0 0 40px rgba(0, 0, 0, 0.06) inset;
-  -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 1), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+  height: 450px;
 }
 
 code{

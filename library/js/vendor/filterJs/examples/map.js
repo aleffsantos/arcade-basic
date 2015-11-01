@@ -58,7 +58,9 @@ var GoogleMap = {
     var self = this;
     var mapOptions = {
       zoom: 3,
-      center: new google.maps.LatLng(lat, lng)
+      center: new google.maps.LatLng(lat, lng),
+                     
+styles:[{"featureType":"water","elementType":"all","stylers":[{"visibility":"on"},{"color":"#5EA9B1"}]},{"featureType":"landscape.natural.landcover","elementType":"all","stylers":[{"visibility":"on"},{"color":"#E1A720"},{"gamma":3.5}]},{"featureType":"landscape.natural.terrain","elementType":"all","stylers":[{"visibility":"on"},{"color":"#E1A720"},{"lightness":26}]},{"featureType":"road.highway.controlled_access","elementType":"all","stylers":[{"visibility":"on"},{"color":"#C76726"}]},{"featureType":"road.arterial","elementType":"all","stylers":[{"visibility":"on"},{"color":"#C76726"},{"lightness":21}]},{"featureType":"road.local","elementType":"all","stylers":[{"visibility":"on"},{"color":"#C76726"},{"lightness":40}]}]
     };
 
     this.map = new google.maps.Map(document.getElementById('map'), mapOptions);
