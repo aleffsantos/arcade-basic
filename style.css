@@ -2980,13 +2980,17 @@ input[type="button"].btn-block {
         float: left;
           border: 2px solid #fff;
           border-radius: 30px;
-          margin: 10px 7px;
+          margin: 20px 10px 0px 10px;
           opacity: 0.5;}
       .navbar-nav > li:hover {
           background-color:#428bca;
           border: 2px solid #fff;
           opacity: 1;
           transition: .3s;}
+      .navbar-nav > li:active {
+          background-color:#428bca;
+          border: 2px solid #fff;
+          opacity: 1;}
         .navbar-nav > li > a {
           padding-top: 5px;
           padding-bottom: 5px; }

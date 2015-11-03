@@ -20,7 +20,7 @@ if ( ! is_front_page() )
 
 <div class="container-fluid" style="padding: 0px;margin-top: -37px;">
                         <!--<div class="col-md-12">-->
-                            <div style="position: absolute;z-index: 10;width: 50%;border-radius: 7px!important;margin: 40px;">
+    <div style="position: absolute;z-index: 10;width: 50%;border-radius: 7px!important; margin: 4% 0px 0px 8%;">
                                 <h4 class='col-md-12'>Places (<span id="total_places">0</span>)</h4>
 
                                 <label class="sr-only" for="searchbox">Search</label>
@@ -45,10 +45,10 @@ if ( ! is_front_page() )
             </video>
             <div class="detail">
               <dl>
-                <dt>Categories</dt>
+                <dt>Usuário</dt>
                 <dd><%= categories.join(', ') %></dd>
-                <dt>Address</dt>
-                <video><%= address %></video>
+                <dt>Local</dt>
+                <dd><%= address %></dd>
                     </dl>
                     </div>
                     </div>

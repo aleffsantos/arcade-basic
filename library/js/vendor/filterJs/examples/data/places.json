@@ -1,20 +1,17 @@
 var places = [
   {
     "id": 1,
-    "name": "The Flying Falafel",
+    "name": "Liberdade",
     "categories": [
-      "Falafel",
-      "Vegan",
-      "Gluten-Free"
+      "Rodrigo Poncinelli"
     ],
-      "videoUrl": "http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/video-1446408223.mp4.mp4",
-      "address": "localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/video-1446408223.mp4.mp4",
+      "videoUrl": "http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/Rodrigo-Poncinelli_Liberdade-Juiz-de-Fora-MG1.mov",
+      "address": "Juiz de fora - MG",
     "coordinate": {
-      "latitude": 37.78125,
-      "longitude": -122.4113007
+        "latitude": -21.762424,
+        "longitude": -43.343400
     },
-    "description": "Yep, this place is a winner! \n\nFalafel pocket sandwich overflowing with goodness- falafel balls (sesame or spicy), veggies (~6 options), and sauces (~4...",
-    "phone": "+1-415-964-1003",
+    "description": "Yep, this place is a winner! \n\nFalafel pocket sandwich overflowing with goodness- falafel balls (sesame or spicy), veggies (~6 options), and sauces (~4..."
   },
     
     
@@ -22,164 +19,311 @@ var places = [
     
   {
     "id": 2,
-    "name": "Philz Coffee",
-      "videoUrl": "http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/video-1446408223.mp4-1.mp4",
+    "name": "Liberdade",
+      "videoUrl": "http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/Luciene-liberdade-EUA.mp4",
     "categories": [
-      "Coffee & Tea"
+      "Luciene"
     ],
-    "address": "748 Van Ness Ave, San Francisco, CA 94102",
+"address": "Dallas - EUA",
     "coordinate": {
-      "latitude": 37.782383,
-      "longitude": -122.420526
+        "latitude": 32.776664,
+        "longitude": -96.796988
     },
-    "description": "I think the idea of ordering with your barista is pretty cool. You line up until a barista calls \"next\". Order. and pay at the counter behind you. \n\nI had...",
-    "phone": "+1-415-292-7660"
+    "description": "I think the idea of ordering with your barista is pretty cool. You line up until a barista calls \"next\". Order. and pay at the counter behind you. \n\nI had..."
   },
+    
   {
     "id": 3,
-    "name": "City Hall",
-      "videoUrl": "http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/video-1446408222.mp4.mp4",
+    "name": "Liberdade",
+      "videoUrl": "http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/Liberdade-POLONIA-cynthia.mp4",
     "categories": [
-      "Landmarks & Historical Buildings",
-      "Venues & Event Spaces"
+      "Cynthia"
     ],
-    "address": "1 Dr Carlton B Goodlett Pl, Civic Center, San Francisco, CA 94102",
+      "address": "Cracóvia - POL",
     "coordinate": {
-      "latitude": 37.7793900915108,
-      "longitude": -122.41861581802401
+        "latitude": 50.064650,
+        "longitude": 19.944980
     },
-    "description": "Gorgeous place! We had such an amazing wedding here. We had the whole 9-yards.... the prettiest venue, a private wedding, strings players, etc... I would...",
-    "phone": "+1-415-701-2311"
+    "description": "Gorgeous place! We had such an amazing wedding here. We had the whole 9-yards.... the prettiest venue, a private wedding, strings players, etc... I would..."
   },
+    
   {
     "id": 4,
-    "name": "Papa November",
-      "videoUrl": "http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/Rodrigo-Poncinelli_Liberdade-Juiz-de-Fora-MG.mov",
+    "name": "Liberdade",
+      "videoUrl": "http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/liberdade-polly-rio-de-janeiro.mp4",
     "rating": 4.6,
     "review_count": 68,
     "url": "http://www.yelp.com/biz/papa-november-san-francisco",
     "categories": [
-      "Coffee & Tea"
+      "Polly"
     ],
-    "address": "15th & Kansas SE Corner, SoMa, San Francisco, CA 94103",
+      "address": "Rio de Janeiro - BRA",
     "coordinate": {
-      "latitude": 37.7672036024795,
-      "longitude": -122.403616905212
+        "latitude": -22.906847,
+        "longitude": -43.172896
     },
-    "description": "It truly is all that they say it is and more. \n\nDelicious, quality stuff, it's really all we ask for. Thank you to the people who work there as well. Staff...",
-    "phone": null
+    "description": "It truly is all that they say it is and more. \n\nDelicious, quality stuff, it's really all we ask for. Thank you to the people who work there as well. Staff..."
   },
+    
   {
     "id": 5,
-    "name": "Hooker's Sweet Treats",
-      "videoUrl": "http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/10/arthurfelicidade-stabarbaraEUA.mp4",
+    "name": "Liberdade",
+      "videoUrl": "http://localhost/z-Frameye/wordpress/wp-admin/upload.php?item=99",
     "rating": 4.8,
     "review_count": 232,
     "url": "http://www.yelp.com/biz/hookers-sweet-treats-san-francisco",
     "categories": [
-      "Desserts",
-      "Chocolatiers & Shops",
-      "Coffee & Tea"
+      "Ariel Nolasco"
     ],
-    "address": "442 Hyde St, Tenderloin, San Francisco, CA 94109",
+      "address": "São Paulo - BRA",
     "coordinate": {
-      "latitude": 37.7852287,
-      "longitude": -122.4160538
+        "latitude": -23.473904,
+        "longitude": -46.610817
     },
-    "description": "I noticed all the amazing reviews for this place on yelp and decided to stop by after a late lunch at nearby Lahore Karahi. Unfortunately, they were already...",
-    "phone": "+1-415-441-4628"
+    "description": "I noticed all the amazing reviews for this place on yelp and decided to stop by after a late lunch at nearby Lahore Karahi. Unfortunately, they were already..."
   },
   {
     "id": 6,
-    "name": "Tadu Ethiopian Kitchen",
+    "name": "Felicidade",
+      "videoUrl": "http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/video-1443532825.mp4.mp4",
     "rating": 4.2,
     "review_count": 183,
     "url": "http://www.yelp.com/biz/tadu-ethiopian-kitchen-san-francisco-3",
     "categories": [
-      "Ethiopian"
+      "Ranieri"
     ],
-    "address": "484 Ellis St, Tenderloin, San Francisco, CA 94102",
+    "address": "São Paulo - BRA",
     "coordinate": {
-      "latitude": 37.7847191,
-      "longitude": -122.414172
+        "latitude": -23.531118,
+        "longitude": -46.501514
     },
     "description": "Wow this food is good!\n\nMy partner and I went there for a Sunday lunch. The restaurant wasn't busy at all, which was probably for the best since they only...",
     "phone": "+1-415-409-6649"
   },
   {
     "id": 7,
-    "name": "b. Patisserie",
+    "name": "Liberdade",
+      "videoUrl": "http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/video-1443532825.mp4.mp4",
     "rating": 4.8,
     "review_count": 926,
     "url": "http://www.yelp.com/biz/b-patisserie-san-francisco-2",
     "categories": [
-      "Bakeries",
-      "Coffee & Tea"
+      "Stefhan"
     ],
-    "address": "2821 California St, Pacific Heights, San Francisco, CA 94115",
+    "address": "Recife - BRA",
     "coordinate": {
-      "latitude": 37.7879217,
-      "longitude": -122.4409499
+        "latitude": -8.057838,
+        "longitude": -34.882897
     },
     "description": "I made a point of walking to this place from Union Square as I knew I would be indulging in some delicious pastries. \n\nBased on my first experience, b....",
     "phone": "+1-415-440-1700"
   },
   {
     "id": 8,
-    "name": "Little Heaven Deli",
+    "name": "Felicidade",
+      "videoUrl": "http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/Richard-Aaron_felicidade-Recife.mp4",
     "rating": 5.0,
     "review_count": 92,
     "url": "http://www.yelp.com/biz/little-heaven-deli-san-francisco",
     "categories": [
-      "Creperies",
-      "American (New)",
-      "Delis"
+      "Richard Aaron"
     ],
-    "address": "2348 Mission St, Mission, San Francisco, CA 94110",
+    "address": "Recife - BRA",
     "coordinate": {
-      "latitude": 37.7594795,
-      "longitude": -122.4194336
-    },
-    "description": "Great little spot for crepes and sandwiches. Now, they have bubble tea, too, and it's quite tasty.\n\nThe owners of this place clearly care about their...",
-    "phone": "+1-415-824-1293"
+      "latitude": -8.25800,
+      "longitude": -34.90678
+    }
   },
     {
-        "id": 9,
-        "name": "Av. Roque Petroni Junior",
+    "id": 9,
+    "name": "Felicidade",
+    "videoUrl": "http://localhost/z-Frameye/wordpress/wp-admin/upload.php?item=94",
+    "rating": 5.0,
+    "review_count": 92,
+    "url": "http://www.yelp.com/biz/little-heaven-deli-san-francisco",
+    "categories": [
+        "Mariana Medeiros"
+    ],
+    "address": "Mauá, SP - BRA",
+    "coordinate": {
+        "latitude": -23.682158,
+        "longitude": -46.457556
+}
+},
+{
+    "id": 10,
+    "name": "Felicidade",
+    "videoUrl": "http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/Marcela-feliciade-Lonrina_PR.mp4",
+    "rating": 5.0,
+    "review_count": 92,
+    "url": "http://www.yelp.com/biz/little-heaven-deli-san-francisco",
+    "categories": [
+    "Marcela"
+    ],
+    "address": "Londrina, SC - BRA",
+    "coordinate": {
+        "latitude": -23.311975,
+        "longitude": -51.153883
+}
+},
+    {
+        "id": 11,
+        "name": "Felicidade",
+        "videoUrl": "http://localhost/z-Frameye/wordpress/wp-admin/upload.php?item=92",
         "rating": 5.0,
         "review_count": 92,
         "url": "http://www.yelp.com/biz/little-heaven-deli-san-francisco",
         "categories": [
-            "Creperies",
-            "American (New)",
-            "Delis"
+            "Gizele Donato"
         ],
-        "address": "Av. Roque Petroni Junior",
+        "address": "São Paulo - BRA",
         "coordinate": {
-            "latitude": -23.624250,
-            "longitude": -46.694810
-        },
-        "description": "Great little spot for crepes and sandwiches. Now, they have bubble tea, too, and it's quite tasty.\n\nThe owners of this place clearly care about their...",
-        "phone": "+1-415-824-1293"
+            "latitude": -23.470241,
+            "longitude": -46.396070
+        }
     },
     {
-        "id": 10,
-        "name": "Av. Brigadeiro Faria Lima",
-        "video": "https://www.youtube.com/watch?v=aTcJWhmdzpg&list=PLPy9EgpSI-40ZHrcc3cUs8J_CAtJEHpXI",
+        "id": 12,
+        "name": "Felicidade",
+        "videoUrl": "http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/Felicidade-SP-robson.mp4",
         "rating": 5.0,
         "review_count": 92,
         "url": "http://www.yelp.com/biz/little-heaven-deli-san-francisco",
         "categories": [
-            "Creperies",
-            "American (New)",
-            "Delis"
+            "Robson"
         ],
-        "address": "Av. Brigadeiro Faria Lima",
+        "address": "São paulo - Brasil",
+        "coordinate": {
+            "latitude": -23.580448,
+            "longitude": -46.663812
+        }
+    },
+    {
+        "id": 13,
+        "name": "Felicidade",
+        "videoUrl": "http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/felicidade-VALINHOS-lucas.mp4",
+        "rating": 5.0,
+        "review_count": 92,
+        "url": "http://www.yelp.com/biz/little-heaven-deli-san-francisco",
+        "categories": [
+            "Lucas"
+        ],
+        "address": "Valhinhos - BRA",
+        "coordinate": {
+            "latitude": -22.970293,
+            "longitude": -46.997815
+        }
+    },
+    {
+        "id": 14,
+        "name": "Felicidade",
+        "videoUrl": "http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/felicidade-SP-noelle.mp4",
+        "rating": 5.0,
+        "review_count": 92,
+        "url": "http://www.yelp.com/biz/little-heaven-deli-san-francisco",
+        "categories": [
+            "Noele"
+        ],
+        "address": "São Paulo - BRA",
+        "coordinate": {
+            "latitude": -23.543744,
+            "longitude": -46.727884
+        }
+    },
+    {
+        "id": 15,
+        "name": "Felicidade",
+        "videoUrl": "http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/felicidade-failiny-guarulhos.mp4",
+        "rating": 5.0,
+        "review_count": 92,
+        "url": "http://www.yelp.com/biz/little-heaven-deli-san-francisco",
+        "categories": [
+            "Failiny"
+        ],
+        "address": "Guarulhos, SP - BRA",
+        "coordinate": {
+            "latitude": -23.454250,
+            "longitude": -46.533793
+        }
+    },
+    {
+        "id": 16,
+        "name": "Felicidade",
+        "videoUrl": "http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/Felicidade-Murilo-Praia-grande.mp4",
+        "rating": 5.0,
+        "review_count": 92,
+        "url": "http://www.yelp.com/biz/little-heaven-deli-san-francisco",
+        "categories": [
+            "Murilo"
+        ],
+        "address": "Praia Grande, SP - BRA",
+        "coordinate": {
+            "latitude": -24.008873,
+            "longitude": -46.412503
+        }
+    },
+    {
+        "id": 17,
+        "name": "Felicidade",
+        "videoUrl": "http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/felicidade-luciene-florida.mp4",
+        "rating": 5.0,
+        "review_count": 92,
+        "url": "http://www.yelp.com/biz/little-heaven-deli-san-francisco",
+        "categories": [
+            "Luciene"
+        ],
+        "address": "Flórida - EUA",
+        "coordinate": {
+            "latitude": 27.664827,
+            "longitude": -81.515754
+        }
+    },
+    {
+        "id": 18,
+        "name": "Felicidade",
+        "videoUrl": "http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/Felicidade-Felipe-Munoz-EUA-Pensacola.mp4",
+        "rating": 5.0,
+        "review_count": 92,
+        "url": "http://www.yelp.com/biz/little-heaven-deli-san-francisco",
+        "categories": [
+            "Felipe Muñoz"
+        ],
+        "address": "Pensacola - EUA",
+        "coordinate": {
+            "latitude": 30.421309,
+            "longitude": -87.216915
+        }
+    },
+    {
+        "id": 19,
+        "name": "Felicidade",
+        "videoUrl": "http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/felicidade-EUA-nadege1.mp4",
+        "rating": 5.0,
+        "review_count": 92,
+        "url": "http://www.yelp.com/biz/little-heaven-deli-san-francisco",
+        "categories": [
+            "Ricardo"
+        ],
+        "address": "Nadegue",
+        "coordinate": {
+            "latitude": 44.331511,
+            "longitude": -0.950148
+        }
+    },
+    {
+        "id": 20,
+        "name": "Felicidade",
+        "videoUrl": "http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/Felicidade-Carol-Gomes-SP.mp4",
+        "rating": 5.0,
+        "review_count": 92,
+        "url": "http://www.yelp.com/biz/little-heaven-deli-san-francisco",
+        "categories": [
+            "Carol Gomes"
+        ],
+        "address": "São Paulo - BRA",
         "coordinate": {
             "latitude": -23.577389,
             "longitude": -46.686915
-        },
-        "description": "Great little spot for crepes and sandwiches. Now, they have bubble tea, too, and it's quite tasty.\n\nThe owners of this place clearly care about their...",
-        "phone": "+1-415-824-1293"
+        }
     },
 ]

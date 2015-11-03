@@ -19,7 +19,7 @@ $(document).ready(function(){
     //search: {ele: '#searchbox', fields: ['runtime']}, // With specific fields
   var FJS = FilterJS(places, '#places', {
     template: '#place-template',
-    search: {ele: '#searchbox', fields: ['categories']},
+      search: {ele: '#searchbox', fields: ['categories', 'name', 'address']},
     callbacks: {
       afterFilter: afterFilter 
     }
