@@ -22,11 +22,6 @@ if ( 2 > $paged ) {
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-				<!--HERO-SLIDER CODE TEST -->
-				
-                    
-				
-                    <!--HERO-SLIDER CODE TEST -->
 					<?php
 					if ( is_active_sidebar( 'jumbo-headline' ) ) {
 						dynamic_sidebar( 'jumbo-headline' );
@@ -74,42 +69,100 @@ if ( 'page' == get_option('show_on_front') ) {
                 <div class="flexslider">
                     <ul class="slides">
                         <li>
-                            <iframe id="player_1" src="https://player.vimeo.com/video/142904077?title=0&byline=0&portrait=0" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            <video width="300" height="168" controls webkitallowfullscreen mozallowfullscreen allowfullscreen style="background: #000;">
+                                <source src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/felicidade-SP-noelle.mp4">        
+                            </video>
                         </li>
                         <li>
-                            <iframe id="player_1" src="https://player.vimeo.com/video/141692625?title=0&byline=0&portrait=0" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            <video width="300" height="168" controls webkitallowfullscreen mozallowfullscreen allowfullscreen style="background: #000;">
+                                <source src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/Felicidade-SP-robson.mp4">        
+                            </video>
                         </li>
                         <li>
-                            <iframe id="player_1" src="https://player.vimeo.com/video/142097942?title=0&byline=0&portrait=0" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            <video width="300" height="168" controls webkitallowfullscreen mozallowfullscreen allowfullscreen style="background: #000;">
+                                <source src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/felicidade-VALINHOS-lucas.mp4">        
+                            </video>
                         </li>
                         <li>
-                            <iframe id="player_1" src="https://player.vimeo.com/video/142888768?color=ffffff&title=0&byline=0&portrait=0" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            <video width="300" height="168" controls webkitallowfullscreen mozallowfullscreen allowfullscreen style="background: #000;">
+                                <source src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/Marcela-feliciade-Lonrina_PR.mp4">        
+                            </video>
                         </li>
                         <li>
-                            <iframe id="player_1" src="http://player.vimeo.com/video/39683393?api=1&player_id=player_1" width="200" height="126" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                            <video width="300" height="168" controls webkitallowfullscreen mozallowfullscreen allowfullscreen style="background: #000;">
+                                <source src="http://localhost/z-Frameye/wordpress/?attachment_id=94">        
+                            </video>
                         </li>
                         <li>
-                            <iframe id="player_1" src="https://player.vimeo.com/video/142904077?title=0&byline=0&portrait=0" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            <video width="300" height="168" controls webkitallowfullscreen mozallowfullscreen allowfullscreen style="background: #000;">
+                                <source src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/Richard-Aaron_felicidade-Recife.mp4">        
+                            </video>
                         </li>
                         <li>
-                            <iframe id="player_1" src="https://player.vimeo.com/video/141692625?title=0&byline=0&portrait=0" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            <video width="300" height="168" controls webkitallowfullscreen mozallowfullscreen allowfullscreen style="background: #000;">
+                                <source src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/video-1443532825.mp4.mp4">        
+                            </video>
                         </li>
                         <li>
-                            <iframe id="player_1" src="https://player.vimeo.com/video/142097942?title=0&byline=0&portrait=0" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            <video width="300" height="168" controls webkitallowfullscreen mozallowfullscreen allowfullscreen style="background: #000;">
+                                <source src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/Felicidade-Murilo-Praia-grande.mp4">        
+                            </video>
                         </li>
                         <li>
-                            <iframe id="player_1" src="https://player.vimeo.com/video/142097942?title=0&byline=0&portrait=0" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            <video width="300" height="168" controls webkitallowfullscreen mozallowfullscreen allowfullscreen style="background: #000;">
+                                <source src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/felicidade-luciene-florida.mp4">        
+                            </video>
                         </li>
                         <li>
-                            <iframe id="player_1" src="https://player.vimeo.com/video/142888768?color=ffffff&title=0&byline=0&portrait=0" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            <video width="300" height="168" controls webkitallowfullscreen mozallowfullscreen allowfullscreen style="background: #000;">
+                                <source src="http://localhost/z-Frameye/wordpress/?attachment_id=85">        
+                            </video>
                         </li>
                         <li>
-                            <iframe id="player_1" src="http://player.vimeo.com/video/39683393?api=1&player_id=player_1" width="200" height="126" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                            <video width="300" height="168" controls webkitallowfullscreen mozallowfullscreen allowfullscreen style="background: #000;">
+                                <source src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/Felicidade-Felipe-Munoz-EUA-Pensacola.mp4">        
+                            </video>
                         </li>
                         <li>
-                            <iframe id="player_1" src="https://player.vimeo.com/video/142904077?title=0&byline=0&portrait=0" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            <video width="300" height="168" controls webkitallowfullscreen mozallowfullscreen allowfullscreen style="background: #000;">
+                                <source src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/felicidade-EUA-nadege1.mp4">        
+                            </video>
                         </li>
                         <li>
+                            <video width="300" height="168" controls webkitallowfullscreen mozallowfullscreen allowfullscreen style="background: #000;">
+                                <source src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/Felicidade-Carol-Gomes-SP.mp4">        
+                            </video>
+                        </li>
+                        <li>
+                            <video width="300" height="168" controls webkitallowfullscreen mozallowfullscreen allowfullscreen style="background: #000;">
+                                <source src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/Felicidade-Bruna-Herber-SP.mp4">        
+                            </video>
+                        </li>
+                        <li>
+                            <video width="300" height="168" controls webkitallowfullscreen mozallowfullscreen allowfullscreen style="background: #000;">
+                                <source src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/Felicidade-2-Murilo-Praia-grande.mp4">        
+                            </video>
+                        </li>
+                        <li>
+                            <video width="300" height="168" controls webkitallowfullscreen mozallowfullscreen allowfullscreen style="background: #000;">
+                                <source src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/felicidade-EUA-nadege2.mp4">        
+                            </video>
+                        </li>
+                        <li>
+                            <video width="300" height="168" controls webkitallowfullscreen mozallowfullscreen allowfullscreen style="background: #000;">
+                                <source src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/felicidade-EUA-nadege.mp4">        
+                            </video>
+                        </li>
+                        <li>
+                            <video width="300" height="168" controls webkitallowfullscreen mozallowfullscreen allowfullscreen style="background: #000;">
+                                <source src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/felicidade-EUA-nadege.mp4">        
+                            </video>
+                        </li>
+                        <li>
+                            <video width="300" height="168" controls webkitallowfullscreen mozallowfullscreen allowfullscreen style="background: #000;">
+                                <source src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/10/arthurfelicidade-stabarbaraEUA.mp4">        
+                            </video>
+                        </li>
                     </ul>
                 </div>
                 
@@ -122,74 +175,64 @@ if ( 'page' == get_option('show_on_front') ) {
                 <div class="flexslider">
                 <ul class="slides">
                     <li>
-                        <iframe id="player_1" src="https://player.vimeo.com/video/141843181?color=5ea9b1&title=0&byline=0&portrait=0" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <video width="300" height="168" controls webkitallowfullscreen mozallowfullscreen allowfullscreen style="background: #000;">
+                            <source src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/Rodrigo-Poncinelli_Liberdade-Juiz-de-Fora-MG1.mov">        
+                        </video>
                     </li>
                     <li>
-                        <iframe id="player_1" src="https://player.vimeo.com/video/142895278?color=5ea9b1&title=0&byline=0&portrait=0" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <video width="300" height="168" controls webkitallowfullscreen mozallowfullscreen allowfullscreen style="background: #000;">
+                            <source src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/Luciene-liberdade-EUA.mp4">        
+                        </video>
                     </li>
                     <li>
-                        <iframe id="player_1" src="https://player.vimeo.com/video/141929668?color=5ea9b1&title=0&byline=0&portrait=0" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <video width="300" height="168" controls webkitallowfullscreen mozallowfullscreen allowfullscreen style="background: #000;">
+                            <source src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/Liberdade-POLONIA-cynthia.mp4">        
+                        </video>
                     </li>
                     <li>
-                        <iframe id="player_1" src="https://player.vimeo.com/video/137158633?color=ffffff&title=0&byline=0&portrait=0&badge=0" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <video width="300" height="168" controls webkitallowfullscreen mozallowfullscreen allowfullscreen style="background: #000;">
+                            <source src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/liberdade-polly-rio-de-janeiro.mp4">        
+                        </video>
                     </li>
                     <li>
-                        <iframe id="player_1" src="https://player.vimeo.com/video/141843181?color=5ea9b1&title=0&byline=0&portrait=0" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <video width="300" height="168" controls webkitallowfullscreen mozallowfullscreen allowfullscreen style="background: #000;">
+                            <source src="http://localhost/z-Frameye/wordpress/?attachment_id=99">        
+                        </video>
                     </li>
                     <li>
-                        <iframe id="player_1" src="https://player.vimeo.com/video/142895278?color=5ea9b1&title=0&byline=0&portrait=0" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <video width="300" height="168" controls webkitallowfullscreen mozallowfullscreen allowfullscreen style="background: #000;">
+                            <source src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/video-1443532783.mp4.mp4">        
+                        </video>
                     </li>
                     <li>
-                        <iframe id="player_1" src="https://player.vimeo.com/video/141929668?color=5ea9b1&title=0&byline=0&portrait=0" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <video width="300" height="168" controls webkitallowfullscreen mozallowfullscreen allowfullscreen style="background: #000;">
+                            <source src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/Stefhan-rafael_Liberdade-Recife.mp4">        
+                        </video>
                     </li>
                     <li>
-                        <iframe id="player_1" src="https://player.vimeo.com/video/142652233?color=ffffff&title=0&byline=0&portrait=0" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    </li>
-                    <li>
-                        <iframe id="player_1" src="https://player.vimeo.com/video/141843181?color=5ea9b1&title=0&byline=0&portrait=0" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    </li>
-                    <li>
-                        <iframe id="player_1" src="https://player.vimeo.com/video/142895278?color=5ea9b1&title=0&byline=0&portrait=0" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <video width="300" height="168" controls webkitallowfullscreen mozallowfullscreen allowfullscreen style="background: #000;">
+                            <source src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/video-1446408223.mp4.mp4">        
+                        </video>
                     </li>
                 </ul>
             </div>
                
                 <div class="tag-panel">
-                    <p class="tag-name" style="background-color: #85A640;"># Humanidade</p>
+                    <p class="tag-name" style="background-color: #85A640;"># Descoberta</p>
                 </div>
                <!-- THIRD SLIDER -->
                
             <div class="flexslider">
             <ul class="slides">
                 <li>
-                    <iframe id="player_1" src="https://player.vimeo.com/video/142168579?color=7f983b&title=0&byline=0&portrait=0" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    <video width="300" height="168" controls webkitallowfullscreen mozallowfullscreen allowfullscreen style="background: #000;">
+                        <source src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/video-1446408222.mp4.mp4">        
+                    </video>
                 </li>
                 <li>
-                    <iframe id="player_1" src="https://player.vimeo.com/video/142783501?color=7f983b&title=0&byline=0&portrait=0" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                </li>
-                <li>
-                    <iframe id="player_1" src="https://player.vimeo.com/video/142568836?color=7f983b&title=0&byline=0&portrait=0" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                </li>
-                <li>
-                    <iframe id="player_1" src="https://player.vimeo.com/video/142245723?color=7f983b&title=0&byline=0&portrait=0" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                </li>
-                <li>
-                    <iframe id="player_1" src="https://player.vimeo.com/video/29017795?color=7f983b&title=0&byline=0&portrait=0" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                </li>
-                <li>
-                    <iframe id="player_1" src="https://player.vimeo.com/video/108679294?color=7f983b&title=0&byline=0&portrait=0&badge=0" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                </li>
-                <li>
-                    <iframe id="player_1" src="https://player.vimeo.com/video/96992249?color=ffffff" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                </li>
-                <li>
-                    <iframe id="player_1" src="https://player.vimeo.com/video/142245723?color=7f983b&title=0&byline=0&portrait=0" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                </li>
-                <li>
-                    <iframe id="player_1" src="https://player.vimeo.com/video/29017795?color=7f983b&title=0&byline=0&portrait=0" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                </li>
-                <li>
-                    <iframe id="player_1" src="https://player.vimeo.com/video/108679294?color=7f983b&title=0&byline=0&portrait=0&badge=0" width="200" height="126" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    <video width="300" height="168" controls webkitallowfullscreen mozallowfullscreen allowfullscreen style="background: #000;">
+                        <source src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/video-1446408223.mp4.mp4">        
+                    </video>
                 </li>
             </ul>
         </div>

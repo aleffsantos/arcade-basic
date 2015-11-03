@@ -9,8 +9,9 @@
 $bavotasan_theme_options = bavotasan_theme_options();
 ?>
 	</main><!-- main -->
-    <div class="colored-bar"></div>
+    
 	<footer id="footer" role="contentinfo">
+        <div class="colored-bar"></div>
 		<div id="footer-content" class="container">
 			<div class="row">
 				<div class="copyright col-lg-12">
