@@ -20,11 +20,12 @@ if ( ! is_front_page() )
 
 <div class="container-fluid" style="padding: 0px;margin-top: -37px;">
                         <!--<div class="col-md-12">-->
-    <div style="position: absolute;z-index: 10;width: 50%;border-radius: 7px!important; margin: 4% 0px 0px 8%;">
-                                <h4 class='col-md-12'>Places (<span id="total_places">0</span>)</h4>
-
-                                <label class="sr-only" for="searchbox">Search</label>
-                                <input type="text" class="form-control" id="searchbox" placeholder="Search &hellip;">
+    <div style="position: absolute;z-index: 10;width: 50%;border-radius: 7px!important; margin: 5% 0px 0px 8%;">
+                                
+    <h4 class='col-md-12'        style="background-color: #7F983B; margin: 10px 0px -5px 0px; padding: 10px 10px 15px 0px; text-align: center; color: white; z-index: -1; width: 200px; border-radius: 10px 10px 0px 0px; font-weight: 600;"
+        >Places (<span id="total_places">0</span>)</h4>
+        <label class="sr-only" for="searchbox">Pesquisa...</label>
+             <input type="text" class="form-control" id="searchbox" placeholder="Search &hellip;">
                                 <span class="glyphicon glyphicon-search search-icon"></span>
                             </div>
                         </br>
