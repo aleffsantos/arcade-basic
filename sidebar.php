@@ -7,7 +7,9 @@
  * @since 1.0.0
  */
 ?>
-	<div id="secondary" <?php bavotasan_sidebar_class(); ?> role="complementary">
+<!-- THIS SNIPPET WAS ORIGINALLY PLACED BELOW WHERE'S THE COL-MD-12 NOW
+< ?php bavotasan_sidebar_class(); ?> -->
+	<div id="secondary" class="col-md-12" role="complementary">
 		<?php if ( ! dynamic_sidebar( 'sidebar' ) ) : ?>
 			<aside id="meta" class="widget">
 				<h3 class="widget-title"><?php _e( 'Default Widget', 'arcade' ); ?></h3>

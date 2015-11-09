@@ -19,7 +19,7 @@ if ( 2 > $paged ) {
 	if ( is_active_sidebar( 'jumbo-headline' ) || ! empty( $bavotasan_theme_options['jumbo_headline_title'] ) ) {
 	?>
 	<div class="home-top">
-		<div class="container">
+        <div class="container" style="width: 20%;height: 54px;margin: 0px 0px 0px 2px!important;padding: 0px!important;">
 			<div class="row">
 				<div class="col-md-12">
 					<?php
@@ -62,7 +62,7 @@ if ( 'page' == get_option('show_on_front') ) {
 		<div class="row">
 			<div id="primary" class="col-xs-12">
                 <div class="tag-panel">
-                    <p class="tag-name" style="background-color: #B8292F"># Felicidade</p>
+                    <p class="tag-name" style="background-color: #B8292F; padding: 10px; color: white; font-family: lato; font-weight: 600; font-size: 1.2em; border-radius: 5px; text-align: center;"># Felicidade</p>
                 </div>
                    
                 <!-- Place somewhere in the <body> of your page -->
@@ -167,7 +167,7 @@ if ( 'page' == get_option('show_on_front') ) {
                 </div>
                 
                 <div class="tag-panel">
-                    <p class="tag-name" style="background-color: #69ABB0;"># Liberdade</p>
+                    <p class="tag-name" style="background-color: #5EA9B1; padding: 10px; color: white; font-family: lato; font-weight: 600; font-size: 1.2em; border-radius: 5px; text-align: center;"># Liberdade</p>
                 </div>
                    
                 <!-- SECOND SLIDER -->
@@ -218,7 +218,7 @@ if ( 'page' == get_option('show_on_front') ) {
             </div>
                
                 <div class="tag-panel">
-                    <p class="tag-name" style="background-color: #85A640;"># Descoberta</p>
+                    <p class="tag-name" style="background-color: #7F983B; padding: 10px; color: white; font-family: lato; font-weight: 600; font-size: 1.2em; border-radius: 5px; text-align: center;"># Descoberta</p>
                 </div>
                <!-- THIRD SLIDER -->
                

@@ -2980,10 +2980,10 @@ input[type="button"].btn-block {
         float: left;
           border: 2px solid #fff;
           border-radius: 30px;
-          margin: 20px 10px 0px 10px;
+          margin: 10px 10px 10px 10px;
           opacity: 0.5;}
       .navbar-nav > li:hover {
-          background-color:#428bca;
+          background-color:#7F983B;
           border: 2px solid #fff;
           opacity: 1;
           transition: .3s;}
@@ -4149,14 +4149,13 @@ input, textarea {
 /* =Home Widgets
 -------------------------------------------------------------- */
 #home-page-widgets {
-  padding: 60px 0 40px;
+  padding: 0px;
   background: #F7F7F7; }
   @media (max-width: 768px) {
     #home-page-widgets {
       margin: 0; } }
 
-.home-widget {
-  margin: 0 0 30px;
+.home-widget { margin: 0 0 10px!important;
   font-size: 16px;
   line-height: 1.6;
   text-align: center; }
@@ -5107,11 +5106,12 @@ a img.aligncenter {
 -------------------------------------------------------------- */
 
 .overlay-video{
-    background: url('http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/pixel-overlay-01.png') repeat;
+    background: url('http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/pixel-overlay-01.png');
+    background-repeat: repeat;
     background-size: cover;
-    position: absolute;
-    width: 100%;
-    height: 100px;
+    
+    width: 10px;
+    height: 10px;
 }
 
 #bg-video {
