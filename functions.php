@@ -628,12 +628,44 @@ function bavotasan_header_images() {
                
             <div class="fullscreen-bg">
                 <div class="overlay-video"></div>
-                <video loop muted autoplay poster="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/eye-pattern-bg.png" class="fullscreen-bg__video">
-                    <source src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/10/arthurfelicidade-stabarbaraEUA.mp4" type="video/mp4">
+                <!-- loop --><!-- <video onended="myFunction('myHVideo')" id="myHeadVideo" muted autoplay poster="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/eye-pattern-bg.png" class="fullscreen-bg__video">
+                    <source src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/10/arthurfelicidade-stabarbaraEUA.mp4" type="video/mp4"> -->
+                
+                <video id="myHeadVideo" muted autoplay autobuffer poster="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/eye-pattern-bg.png" class="fullscreen-bg__video">
+                    <source src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/10/arthurfelicidade-stabarbaraEUA.mp4" type="video/mp4">   
+                
+                <script type='text/javascript'>
+                    var videoPlayer= document.getElementById('myHeadVideo');
+
+                    videoPlayer.addEventListener('ended', function(){
+                        this.pause();
+
+                        var videos = [
+                            "felicidade-EUA-nadege",
+                            "felicidade-EUA-nadege1",
+                            "felicidade-EUA-nadege2",
+                            "Felicidade-Felipe-Munoz-EUA-Pensacola",
+                            "felicidade-Joao-SP",
+                            "felicidade-SP-noelle",
+                            "Felicidade-SP-robson",
+                            "Marcela-feliciade-Lonrina_PR",
+                            "Richard-Aaron_felicidade-Recife",
+                            "arthurfelicidade-stabarbaraEUA",
+                            "Mariana_Medeiros_felicidade_Maua",
+                            "Rodrigo-Poncinelli_Liberdade-Juiz-de-Fora-MG",
+                            
+                        ], videos = videos[Math.floor(Math.random() * videos.length)];
+
+                        this.src = "http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/" + videos + ".mp4";
+
+                    }, false);
+                </script>
                 </video>
             </div>
-               
-                     
+
+            
+            
+            
                
             <!-- <video autoplay loop poster="" id="bg-video">
                 <source src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/10/arthurfelicidade-stabarbaraEUA.mp4">
