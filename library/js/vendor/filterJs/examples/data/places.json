@@ -2,8 +2,9 @@ var places = [
   {
     "id": 1,
     "name": "Liberdade",
+      "username": 'Rodrigo Poncinelli',
     "categories": [
-      "Rodrigo Poncinelli"
+        "Juiz de fora - MG"
     ],
       "videoUrl": "http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/Rodrigo-Poncinelli_Liberdade-Juiz-de-Fora-MG1.mov",
       "address": "Juiz de fora - MG",
@@ -20,9 +21,10 @@ var places = [
   {
     "id": 2,
     "name": "Liberdade",
+      "username": 'Luciene',
       "videoUrl": "http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/11/Luciene-liberdade-EUA.mp4",
     "categories": [
-      "Luciene"
+        "Dallas - EUA"
     ],
 "address": "Dallas - EUA",
     "coordinate": {

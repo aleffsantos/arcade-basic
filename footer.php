@@ -15,8 +15,8 @@ $bavotasan_theme_options = bavotasan_theme_options();
 		<div id="footer-content" class="container">
 			<div class="row">
 				<div class="copyright col-lg-12">
-                    <span class="pull-left">
-                       <?php printf( __( '&copy; %s %s por: <i class="fa fa-spinner"></i> <a href="*">CICLO Design</a> - All Rights Reserved.', 'arcade' ), date( 'Y' ), ' <a href="' . home_url() . '">' . get_bloginfo( 'name' ) .'</a>' ); ?></span>
+                    <span class="pull-left" style="background-color: #F5F5F5;border:1px solid #F1F1F1; padding: 5px;margin: -7px;border-radius: 7px;">
+                       <?php printf( __( '&copy; %s %s por: <i class="fa fa-spinner"></i><strong> CICLO Design</strong> - Todos os direitos reservados.', 'arcade' ), date( 'Y' ), ' <a href="' . home_url() . '">' . get_bloginfo( 'name' ) .'</a>' ); ?></span>
                        <div id="footer_nav" class="pull-right">
                         <?php wp_nav_menu( array( 'container_class' => 'menu-footer', 'theme_location' => 'footer' ) ); ?>
                     </div>

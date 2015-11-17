@@ -16,18 +16,33 @@ if ( ! is_front_page() )
 ?>
     
 
-    
-
 <div class="container-fluid" style="padding: 0px;margin-top: -37px;">
-                        <!--<div class="col-md-12">-->
+                        <!--<div class="col-md-12">-->    
+    
     <div style="position: absolute;z-index: 10;width: 50%;border-radius: 7px!important; margin: 5% 0px 0px 8%;">
                                 
     <h4 class='col-md-12'        style="background-color: #7F983B; margin: 10px 0px -5px 0px; padding: 10px 10px 15px 0px; text-align: center; color: white; z-index: -1; width: 200px; border-radius: 10px 10px 0px 0px; font-weight: 600;"
-        >Places (<span id="total_places">0</span>)</h4>
+        >Tags (<span id="total_places">0</span>)</h4>
         <label class="sr-only" for="searchbox">Pesquisa...</label>
              <input type="text" class="form-control" id="searchbox" placeholder="Search &hellip;">
                                 <span class="glyphicon glyphicon-search search-icon"></span>
-                            </div>
+    </div>
+      
+    
+    
+     <div class="well" style="width: 50%;position: absolute;top: 160px;left: 110px;z-index: 9;background-color: rgba(245,245,245,0.50);border-color: rgba(240,248,255,0);">
+        <fieldset>
+            <legend>Categories</legend>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" value="All" id="all_categories" checked>
+                    <span>All</span>
+                </label>
+            </div>
+            <div id="categories_criteria"></div>
+        </fieldset>
+    </div> 
+    
                         </br>
                     
                         <div id="map" class="map"></div><br>
@@ -35,6 +50,7 @@ if ( ! is_front_page() )
                    
                 <!--</div>-->
                 </div>
+
 
                 <script id="place-template" type="text/html">
       <div class="col-md-4 movie">
@@ -47,9 +63,9 @@ if ( ! is_front_page() )
             <div class="detail">
               <dl>
                 <dt>Usuário</dt>
-                <dd><%= categories.join(', ') %></dd>
+                <dd><%= username %></dd>
                 <dt>Local</dt>
-                <dd><%= address %></dd>
+                <dd><%= categories.join(', ') %></dd>
                     </dl>
                     </div>
                     </div>

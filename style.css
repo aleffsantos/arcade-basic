@@ -4808,8 +4808,8 @@ width:100%;}
 
 #footer_nav li {
     text-align: left;
-    padding: 1em;
-    font-size: 12px;
+    padding: 0.8em;
+    font-size: 14px;
     font-weight: 600;
     display: inline;
     text-decoration: none;
@@ -4818,7 +4818,7 @@ width:100%;}
 
 #footer_nav ul {
     list-style: none;
-    margin: 0 35px;
+    margin: 0px;
     padding: 0;
 }
 
