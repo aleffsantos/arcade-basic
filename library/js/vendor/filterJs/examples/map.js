@@ -1,13 +1,20 @@
 (function( $ ) {
     $(function() {
-
+var alladdress = [];
 $(document).ready(function(){
 
-  renderCategories();
-  initInputs();
+ 
 
   var place = places[0];
   GoogleMap.init(place.coordinate.latitude, place.coordinate.longitude, places);
+    
+//    console.log(place.address);
+   
+    $.each(places, function(index, value) {
+    //console.log(value.address);
+        alladdress.push(value.address);
+    });
+    //console.log(alladdress);
 
   var afterFilter = function(result){
     $('#total_places').text(result.length);
@@ -24,31 +31,50 @@ $(document).ready(function(){
       afterFilter: afterFilter 
     }
   });
-
+    
+    
   window.FJS = FJS;
+
+    
+    renderCategories();
+    initInputs();
 });
+        
+        function initInputs(){
+            $("#rating_slider").slider({
+                min: 4.0,
+                max: 5.0,
+                values:[4.0, 5.0],
+                step: 0.1,
+                range:true,
+                slide: function( event, ui ) {
+                    $("#rating_range_label" ).html(ui.values[ 0 ] + ' - ' + ui.values[ 1 ]);
+                    $('#rating_filter').val(ui.values[0] + '-' + ui.values[1]).trigger('change');
+                }
+            });
 
-function initInputs(){
 
-  $('#categories_criteria :checkbox').prop('checked', true);
+            $('#categories_criteria :checkbox').prop('checked', true);
 
-  $('#all_categories').on('click', function(){
-    $('#categories_criteria :checkbox').prop('checked', $(this).is(':checked'));
-  });
-}
+            $('#all_categories').on('click', function(){
+                $('#categories_criteria :checkbox').prop('checked', $(this).is(':checked'));
+            });
+        }
 
-function renderCategories(){
-  var categories = ["Falafel", "Vegan", "Gluten-Free", "Coffee & Tea", "Landmarks & Historical Buildings", "Venues & Event Spaces", "Desserts", "Chocolatiers & Shops", "Ethiopian", "Bakeries", "Creperies", "American (New)", "Delis", "Sushi Bars", "Japanese", "Sandwiches", "Hawaiian", "Asian Fusion", "Chinese", "Tea Rooms", "Local Flavor", "Hiking", "Vietnamese", "Parks", "Beaches", "Pizza", "Italian", "Bars", "Tobacco Shops", "Peruvian", "Laotian", "Thai", "Gastropubs", "Mexican", "French", "American (Traditional)", "Breakfast & Brunch", "Steakhouses", "Mediterranean", "Grocery", "Convenience Stores", "Wine Bars", "Pubs", "Juice Bars & Smoothies", "Cocktail Bars", "Food Stands", "Meat Shops", "German", "Indian", "Food Delivery Services", "Caterers", "Videos & Video Game Rental", "Salad"]; 
+        function renderCategories(){
+            var categories = ["Falafel", "Vegan", "Gluten-Free", "Coffee & Tea", "Landmarks & Historical Buildings", "Venues & Event Spaces", "Desserts", "Chocolatiers & Shops", "Ethiopian", "Bakeries", "Creperies", "American (New)", "Delis", "Sushi Bars", "Japanese", "Sandwiches", "Hawaiian", "Asian Fusion", "Chinese", "Tea Rooms", "Local Flavor", "Hiking", "Vietnamese", "Parks", "Beaches", "Pizza", "Italian", "Bars", "Tobacco Shops", "Peruvian", "Laotian", "Thai", "Gastropubs", "Mexican", "French", "American (Traditional)", "Breakfast & Brunch", "Steakhouses", "Mediterranean", "Grocery", "Convenience Stores", "Wine Bars", "Pubs", "Juice Bars & Smoothies", "Cocktail Bars", "Food Stands", "Meat Shops", "German", "Indian", "Food Delivery Services", "Caterers", "Videos & Video Game Rental", "Salad"]; 
 
-  var html = $('#category-template').html();
-  var templateFn = FilterJS.templateBuilder(html)
-  var container = $('#categories_criteria');
+            var html = $('#category-template').html();
+            var templateFn = FilterJS.templateBuilder(html)
+            var container = $('#categories_criteria');
 
-  $.each(categories, function(i, c){
-    container.append(templateFn({ name: c, value: c }))
-  });
-}
+            $.each(categories, function(i, c){
+                container.append(templateFn({ name: c, value: c }))
+            });
+        }
+        
 
+        
 var GoogleMap = {
 
   map: null,

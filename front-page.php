@@ -45,7 +45,7 @@ if ( 2 > $paged ) {
 	if ( is_active_sidebar( 'home-page-top-area' ) ) {
 		?>
 		<div id="home-page-widgets">
-			<div class="container">
+            <div class="container">
 				<div class="row">
 					<?php dynamic_sidebar( 'home-page-top-area' ); ?>
 				</div>
@@ -58,9 +58,10 @@ if ( 'page' == get_option('show_on_front') ) {
 	include( get_page_template() );
 } else {
 ?>
-	<div class="container">
-		<div class="row">
-			<div id="primary" class="col-xs-12" style="z-index:1;">
+
+<div class="container">
+        <div class="row">
+			<div id="primary" class="col-xs-12">
                 <div class="tag-panel">
                     <p class="tag-name" style="background-color: #B8292F; padding: 10px; color: white; font-family: lato; font-weight: 600; font-size: 1.2em; border-radius: 5px; text-align: center;"># Felicidade</p>
                 </div>
