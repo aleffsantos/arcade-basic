@@ -60,7 +60,8 @@ $space_class = '';
                                 
                                 <!--<img src="http://localhost/z-Frameye/wordpress/wp-content/uploads/2015/10/frameye-shadow-1-1-8-multiply.png">-->
                                 
-                                <svg class="draw" version="1.1" id="logo-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                               
+                                     <svg class="draw" version="1.1" id="logo-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                      viewBox="0 0 367.3 84.7" enable-background="new 0 0 367.3 84.7" xml:space="preserve" begin="10s">
                                     <g id="letter-m">
                                         <path fill="#FFFFFF" d="M176.7,73c-0.2-11.5-0.3-23.8-0.2-35.7l0-0.5l-9.2,0l0,0.5c0,12.1,0.1,24.4,0.5,35.6c-4.1,0-6.3,0-10.4,0
@@ -203,6 +204,12 @@ $space_class = '';
                         jQuery('.navbar-collapse').removeAttr('style');
 
                     }
+                });
+      
+
+                jQuery(window).scroll(function() {    
+                    var scroll = jQuery(window).scrollTop();
+                    jQuery('#logo-svg').css({'opacity':(( 200-scroll )/100)+0.1});
                 });
                 
             </script>            

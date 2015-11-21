@@ -16,6 +16,23 @@ Arcade WordPress Theme, Copyright 2015 c.bavota
 Arcade is distributed under the terms of the GNU GPL
 */
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+
+@font-face {
+    font-family: 'FrutigerLTStd';
+    src: url('z-Frameye/wordpress/wp-content/themes/arcade-basic/library/fonts/ITCAvantGardeStd-Bold_0.otf');
+    src: url('z-Frameye/wordpress/wp-content/themes/arcade-basic/library/fonts/ITCAvantGardeStd-Bold_0.otf?#iefix') format('embedded-opentype'),
+        url('z-Frameye/wordpress/wp-content/themes/arcade-basic/library/fonts/FrutigerLTStd-Light.woff') format('woff'),
+        url('z-Frameye/wordpress/wp-content/themes/arcade-basic/library/fonts/FrutigerLTStd-Light.ttf') format('truetype')
+}
+@font-face {
+    font-family: 'AvantGardeStd';
+    src: url('z-Frameye/wordpress/wp-content/themes/arcade-basic/library/fonts/ITCAvantGardeStd-Bold_0.otf');
+    src: url('z-Frameye/wordpress/wp-content/themes/arcade-basic/library/fonts/ITCAvantGardeStd-Bold_0.otf?#iefix') format('embedded-opentype'),
+        url('z-Frameye/wordpress/wp-content/themes/arcade-basic/library/fonts/ITCAvantGardeStd-Bold.woff') format('woff'),
+        url('z-Frameye/wordpress/wp-content/themes/arcade-basic/library/fonts/ITCAvantGardeStd-Bold.ttf') format('truetype')
+}
+
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -36,7 +53,8 @@ main,
 nav,
 section,
 summary {
-  display: block; }
+  display: block;
+z-index: 2;}
 
 audio,
 canvas,
@@ -71,6 +89,8 @@ dfn {
   font-style: italic; }
 
 h1 {
+    font-family: FrutigerLTStd;
+}
   font-size: 2em;
   margin: 0.67em 0; }
 
@@ -428,7 +448,7 @@ h6, .h6 {
   font-size: 12px; }
 
 p {
-  margin: 0 0 10px; }
+  margin: 0 0 10px;}
 
 .lead, .home-jumbotron p,
 .jumbo-headline.widget_text p {
@@ -722,7 +742,8 @@ pre {
 
 .row {
   margin-left: -20px;
-  margin-right: -20px; }
+  margin-right: -20px;
+z-index: 1;}
   .row:before, .row:after {
     content: " ";
     display: table; }
@@ -3739,11 +3760,11 @@ button.close {
 body.basic {
   font-size: 16px;
   color: #282828;
-  font-family: Open Sans, sans-serif; }
+    font-family: Opensans, sans-serif;}
 
 .basic h1, .basic h2, .basic h3, .basic h4, .basic h5, .basic h6 {
   color: #282828;
-  font-family: Raleway, sans-serif; }
+    font-family: AvantGardeStd, Raleway, sans-serif; }
   .basic h1 a, .basic h2 a, .basic h3 a, .basic h4 a, .basic h5 a, .basic h6 a {
     color: #282828; }
 .basic a {
@@ -4283,10 +4304,16 @@ article {
   font-size: 13px; }
 
 .entry-content {
-  line-height: 1.6; }
+  line-height: 1.6;
+    background-color: white;
+    padding: 10px;
+    border-radius: 7px;}
 
 .entry-attachment {
-  margin-top: 20px; }
+  margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 7px;}
 
 .entry-caption {
   font-size: 12px;
@@ -4675,7 +4702,14 @@ iframe {
     margin: 0; }
 
 .page .entry-title {
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+    background-color: white;
+    display: -moz-box;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 7px;
+    color: #CFCFCF;
+    border: 2px solid #CFCFCF;}
 
 /* =Sidebar
 -------------------------------------------------------------- */
@@ -4808,7 +4842,7 @@ width:100%;}
 
 #footer_nav li {
     text-align: left;
-    padding: 0.8em;
+    padding: 0.6em;
     font-size: 14px;
     font-weight: 600;
     display: inline;
@@ -5156,12 +5190,11 @@ a img.aligncenter {
 
 /*-- SVG CSS --*/
 #logo-svg{
-    position: fixed;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    max-width: 60%;
-    top: 50%;
+    /* position: fixed; */
+    margin: 0px auto;
+    padding: 0px;
+    max-width: 100%;
+    position: relative;
     left: 50%;
 }
 .draw {

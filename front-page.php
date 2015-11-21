@@ -60,7 +60,7 @@ if ( 'page' == get_option('show_on_front') ) {
 ?>
 	<div class="container">
 		<div class="row">
-			<div id="primary" class="col-xs-12">
+			<div id="primary" class="col-xs-12" style="z-index:1;">
                 <div class="tag-panel">
                     <p class="tag-name" style="background-color: #B8292F; padding: 10px; color: white; font-family: lato; font-weight: 600; font-size: 1.2em; border-radius: 5px; text-align: center;"># Felicidade</p>
                 </div>
